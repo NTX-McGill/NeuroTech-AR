@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FA328BBD-B798-4854-C54F-D8119A2987F2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Left3Type.cs">
+    <Files>
+      <File FileName="Assets/Type.cs" Line="8" Column="1" />
+      <File FileName="Assets/Type2.cs" Line="29" Column="8" />
+      <File FileName="../../../git/f2019-hexanome-03/Andor/Assets/Scripts/characterMovement1.cs" Line="36" Column="81" />
+      <File FileName="Assets/Left2Type.cs" Line="14" Column="27" />
+      <File FileName="Assets/Left3Type.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AR" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Left3Type.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="72dfc390-f157-43b2-8305-e9ee83043001" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
