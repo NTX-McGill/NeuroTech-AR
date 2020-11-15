@@ -8,17 +8,61 @@ public class SearchApp : MonoBehaviour
     private string[] apps = {"mail","messages","maps","music","weather"};
     public keywordWindowManager windowManager;
     public InputField inputField;
+    public float waitThreshold = 1.5f;
     private List<string> matchedApps = new List<string>();
     private string searchText;
+    private bool startAppTimer;
+    private float appTimer;
+    private string startAppName;
 
     void Start()
     {
+        inputField = GameObject.Find("InputBar").GetComponent<InputField>();
+        windowManager = GameObject.Find("KeywordWindowManager").GetComponent<keywordWindowManager>();
         searchText = inputField.text;
+        startAppTimer = false;
+        appTimer = 0.0f;
+        inputField.ActivateInputField();
+        inputField.Select();
+        inputField.placeholder.GetComponent<Text>().text = "Search...";
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!startAppTimer){
+            startAppTimer = true;
+            if(Input.GetKeyDown("a")){
+                startAppName= matchedApps[0];
+            }
+            else if(Input.GetKeyDown("f")){
+                startAppName= matchedApps[1];
+            }
+            else if(Input.GetKeyDown("j")){
+                startAppName= matchedApps[2];
+            }
+            else if(Input.GetKeyDown("enter")){
+                startAppName= matchedApps[3];
+            }
+            else{
+                startAppTimer = false;
+            }
+        }
+        else if (Input.anyKeyDown){
+            startAppTimer = false;
+            appTimer = 0.0f;
+        }
+        else if (appTimer > waitThreshold){
+            inputField.text = "";
+            searchText = "";
+            Application.LoadLevelAdditive(startAppName);
+            windowManager.clearWindows();
+            Destroy(gameObject);
+        }
+        else {
+            appTimer+=Time.deltaTime;
+        }
+
         if(!searchText.Equals(inputField.text)){
             searchText=inputField.text;
             matchedApps.Clear();
@@ -28,7 +72,7 @@ public class SearchApp : MonoBehaviour
             }
             foreach (string app in matchedApps)
                 Debug.Log(app);
+            windowManager.populateWindows(matchedApps);
         }
-        windowManager.populateWindows(matchedApps);
     }
 }

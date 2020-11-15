@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mail.unity
     guid: d69124c734d44191c844a604117f5d41
+  - enabled: 1
+    path: Assets/Scenes/search.unity
+    guid: 2878c51b99b252c90a30e1ecc0a43bb4
   m_configObjects: {}

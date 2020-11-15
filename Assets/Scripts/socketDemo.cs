@@ -26,7 +26,7 @@ public class socketDemo : MonoBehaviour
     }
 
     private async void Startup(){
-          Uri serverUri = new Uri("ws://localhost:3000/socket.io/?EIO=3&transport=websocket");
+          Uri serverUri = new Uri("ws://localhost:8080/socket.io/?EIO=3&transport=websocket");
           await ws.ConnectAsync(serverUri, CancellationToken.None);
           ArraySegment<byte> bytesReceived = new ArraySegment<byte>(new byte[1024]);
           await ws.ReceiveAsync(bytesReceived, CancellationToken.None);
