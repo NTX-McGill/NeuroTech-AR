@@ -14,25 +14,31 @@ public class SearchApp : MonoBehaviour
     private bool startAppTimer;
     private float appTimer;
     private string startAppName;
+    public SocketClient sc;
+    private int fingerNumberNew;
+    private int fingerNumberOld;
 
     void Start()
     {
         inputField = GameObject.Find("InputBar").GetComponent<InputField>();
         windowManager = GameObject.Find("KeywordWindowManager").GetComponent<keywordWindowManager>();
+        sc = GameObject.Find("SocketClient").GetComponent<SocketClient>();
         searchText = inputField.text;
         startAppTimer = false;
         appTimer = 0.0f;
         inputField.ActivateInputField();
         inputField.Select();
         inputField.placeholder.GetComponent<Text>().text = "Search...";
+        fingerNumberOld = sc.GetFingerNumber();
     }
 
     // Update is called once per frame
     void Update()
     {
+        fingerNumberNew = sc.GetFingerNumber();
         if(!startAppTimer){
             startAppTimer = true;
-            if(Input.GetKeyDown("a")){
+            if(matchedApps.Count >0 && fingerNumberNew != fingerNumberOld && fingerNumberNew==0){
                 startAppName= matchedApps[0];
             }
             else if(Input.GetKeyDown("f")){
@@ -74,5 +80,7 @@ public class SearchApp : MonoBehaviour
                 Debug.Log(app);
             windowManager.populateWindows(matchedApps);
         }
+
+       fingerNumberOld = fingerNumberNew;
     }
 }

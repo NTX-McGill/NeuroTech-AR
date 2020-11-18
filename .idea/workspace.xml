@@ -2,53 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efaba464-4f7f-4e29-b86f-0c68625ca5c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SocketDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SocketDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/console.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/console.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mail.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mail.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/search.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/search.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SearchApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SearchApp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/collapse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/collapse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/keywordWindowManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/keywordWindowManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/socketDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/socketDemo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/33/334ab80c15cfab187509bd414895a3d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/33/33516c3cdfe97073ee0aa3e9f0d304e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5b/5b758cdbd2029555635f5064662840e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/841551a5c816fd77dc273c12bbbe8284" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/8524b40170b1901b01040bd9ac9f7b43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8ab73a69442a45120d1173dea8dfb6fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8dfb8c4e71d23e56dc092bae36a60631" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a9ca65401744aecca92dd2b5309d5c90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ae/aee1d32c1368738829a799e23d9fb791" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bc4d7e3b86f4695cb62cbc1020b2bebf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c31a3f4e4417dc46edac170ff0122e3e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/de/de5db180e2c0d7fd8c97b83511f1e41b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e9/e999d19583d8d45d43274d3a536b3d0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ed/ed329235da45a9cdd16f821e42512401" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ef/ef55c88d3cc9841f60d91431fed8388b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f6/f6680d86bc149f44dd53dbb90730fb57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f9/f9ef4f2e705bfde44db49c4588fbd120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f9aa67-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f9aa67-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/75312e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/75312e-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +48,21 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cs" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="226" width="383" height="628" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604878921184">
+    <state x="558" y="193" width="800" height="724" key="#Plugins" timestamp="1605484877844">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="766" y="226" width="383" height="628" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1604878921184" />
+    <state x="558" y="193" width="800" height="724" key="#Plugins/0.27.1920.1053@0.27.1920.1053" timestamp="1605484877844" />
+    <state x="766" y="216" width="383" height="628" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605484450184">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="766" y="216" width="383" height="628" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1605484450184" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1605484873652">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1605484873652" />
   </component>
 </project>

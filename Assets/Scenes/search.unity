@@ -152,7 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowManager: {fileID: 0}
   inputField: {fileID: 0}
-  waitThreshold: 1.5
+  waitThreshold: 2
+  sc: {fileID: 0}
 --- !u!4 &634745079
 Transform:
   m_ObjectHideFlags: 0

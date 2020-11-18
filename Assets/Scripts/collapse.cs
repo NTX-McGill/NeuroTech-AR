@@ -10,22 +10,29 @@ public class collapse : MonoBehaviour
     public GameObject[] views;
     public GameObject[] text;
     public InputField inputField;
+    public SocketClient sc;
     public float collapseTime = 1.0f;
     private bool collapsing;
     private bool collapsed;
     private bool uncollapsing;
     private string appName;
+    private int fingerNumberNew;
+    private int fingerNumberOld;
+    private bool appOpen;
 
     void Start()
     {
        collapsing = false;
        uncollapsing = false;
        collapsed = false;
+       appOpen = false;
+       fingerNumberOld = sc.GetFingerNumber();
     }
 
     // Update is called once per frame
     void Update()
     {
+        fingerNumberNew = sc.GetFingerNumber();
         if(collapsing){
             collapsing = false;
             collapsed = true;
@@ -76,18 +83,24 @@ public class collapse : MonoBehaviour
                 }
             }
        }
-       else if (Input.GetKeyDown("space")){
-            collapsing = true;
-            Application.LoadLevelAdditive("search");
+       else if (!appOpen && fingerNumberNew != fingerNumberOld ){
+          if (fingerNumberNew==4){
+               collapsing = true;
+               Application.LoadLevelAdditive("search");
+               appOpen=true;
+          }
+          else if (fingerNumberNew==0){
+               collapsing = true;
+               Application.LoadLevelAdditive("mail");
+               appOpen=true;
+          }
        }
-       else if (Input.GetKeyDown("a") && !collapsed){
-            collapsing = true;
-            Application.LoadLevelAdditive("mail");
-       }
+       fingerNumberOld = fingerNumberNew;
     }
 
     public void uncollapse(){
         uncollapsing=true;
+        appOpen=false;
     }
 /*
     public void collapseDock(){
