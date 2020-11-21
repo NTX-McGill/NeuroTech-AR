@@ -84,12 +84,12 @@ public class collapse : MonoBehaviour
             }
        }
        else if (!appOpen && fingerNumberNew != fingerNumberOld ){
-          if (fingerNumberNew==4){
+          if (fingerNumberNew==1){
                collapsing = true;
                Application.LoadLevelAdditive("search");
                appOpen=true;
           }
-          else if (fingerNumberNew==0){
+          else if (fingerNumberNew==7){
                collapsing = true;
                Application.LoadLevelAdditive("mail");
                appOpen=true;

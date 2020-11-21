@@ -38,7 +38,7 @@ public class SearchApp : MonoBehaviour
         fingerNumberNew = sc.GetFingerNumber();
         if(!startAppTimer){
             startAppTimer = true;
-            if(matchedApps.Count >0 && fingerNumberNew != fingerNumberOld && fingerNumberNew==0){
+            if(matchedApps.Count >0 && fingerNumberNew != fingerNumberOld && fingerNumberNew==7){
                 startAppName= matchedApps[0];
             }
             else if(Input.GetKeyDown("f")){
